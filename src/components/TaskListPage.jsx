@@ -152,7 +152,7 @@ const TaskListPage = () => {
   const [taskTitle, setTaskTitle] = useState('');
   const [multiplier, setMultiplier] = useState(1);
   const [openSnackbar, setOpenSnackbar] = useState(false);  
-  const [progress, setProgress] = useState(0);
+  const [setProgress] = useState(0);
   const [deleteDialogOpen, setDeleteDialogOpen] = useState(false);
   const [selectedTaskId, setSelectedTaskId] = useState(null);
 
