@@ -220,7 +220,7 @@ const TaskListPage = () => {
     } else {
       setProgress(0);
     }
-  }, [openSnackbar]);
+  }, [openSnackbar, setProgress]);
 
   return (
     <div>
